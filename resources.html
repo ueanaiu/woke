@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>人力资源_沃克家居</title>
+		<!-- 解决IE9的 对m媒体查询的兼容性-->
+	    <!--[if lt IE 9]>
+	      <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	    <![endif]-->
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/page2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/response2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="Header"></div>
+		<div class="mtop"></div>
+		<section class="pbanner">
+			<div class="line"></div>
+			<figure>
+				<img src="img/22.jpg" alt="人力资源" style="transform: translate(0px, 0px);">
+			</figure>
+			<div class="resource article-block articleShow">
+			    <small>Human<br>resources</small>
+			    <h3>人力资源</h3>
+			</div>
+		</section>
+		<section class="brand proband conservice recolite">
+			<div class="woodbg articleShow"></div>
+			<div class="service-idea clearfix">
+				<div class="idea clearfix" id="thinking">
+			        <div class="services">
+			           	<div class="ideawr">
+				            <h3>用人理念</h3>
+				            <p>重视人才、善用人才、培养人才、留住人才!</p>
+			           	</div>
+			        </div>
+		     	</div>
+		     	<div class="teambox" id="world">
+		     		<h3>团队天地</h3>
+		     		<div class="team">
+		     			<div class="flex-viewport" style="overflow: hidden;position: relative;">
+		     				<ul class="team-list slides">
+		     					<li class="clone" >
+		     						<img src="img/1o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>物控团队团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/2o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>营销中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/3o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>技研中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/4o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>技研中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/5o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>人事行政中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/6o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>供应链中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/7o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>质控中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/8o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>财控中心团队展示</span>
+		     					</li>
+		     					<li class="clone">
+		     						<img src="img/10o.jpg" alt="物控团队团队展示" draggable="false">
+		     						<span>营销中心团队展示</span>
+		     					</li>
+		     				</ul>
+		     			</div>
+		     			<ul class="flex-direction-nav">
+		     				<li class="flex-nav-prev">
+		     					<a href="javascript:;" class="flex-prev">Previous</a>
+		     				</li>
+		     				<li class="flex-nav-next">
+		     					<a href="javascript:;" class="flex-next">Next</a>
+		     				</li>
+		     			</ul>
+		     		</div>
+		     	</div>
+			</div>
+		</section>
+		<section class="recuite-box" id="recuite">
+			<div class="recuite">
+				<ul class="recuite-list clearfix">
+					<div class="recuite">
+						<ul class="recuite-list clearfix">
+							<li>
+								<div class="recuited">
+									<h3>平台运营专员
+									<strong>2<i>人</i></strong>
+									</h3>
+									<div class="need">
+							           <p>在这里，我们有强大的平台，完善的培训机制和挑战性的薪资福利。</p>
+							           <p>Join us! 让我们一道用激情燃烧梦想！</p>
+							        </div>
+								</div>
+							</li>
+							<li>
+								<div class="recuited">
+									<h3>外贸业务员
+									<strong>5<i>人</i></strong>
+									</h3>
+									<div class="need">
+							           <p>在这里，我们有强大的平台，完善的培训机制和挑战性的薪资福利。</p>
+							           <p>Join us! 让我们一道用激情燃烧梦想！</p>
+							        </div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</section>
+		<div id="footer"></div>
+	</body>
+	<script src="js/woke.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$("#Header").load("header.html");
+		$("#footer").load("footer.html");
+			//沃克家居-人力资源-team轮播
+		function autopaly(){
+			timer = setInterval(function(){
+	    		teamnext();
+			},3000)
+		}
+		autopaly();
+		function stop(){
+		    clearInterval(timer);
+		}
+		function teamprev(){
+			$(".team-list").animate({marginLeft:"-"+$(".clone").css('width')},600,function (){
+		        $(".clone").eq(0).appendTo($(".team-list"));  
+		        $(".team-list").css('marginLeft','0px');  
+		    });  
+		}
+		function teamnext(){
+			$(".team-list").css('marginLeft',"-"+$(".clone").css('width')); 
+		    $(".clone").eq(8).prependTo($(".team-list"));		     		
+		    $(".team-list").animate({marginLeft:"0px"},600);
+		}
+		$('.flex-nav-prev').click(function () { 
+			stop();
+			teamprev();
+		})  
+		$('.flex-nav-next').click(function () {
+			stop();
+			teamnext();
+		}) 	
+		$('.team').mouseenter(function(){
+		  stop();
+		}).mouseleave(function(){
+		  autopaly();
+		});
+	</script>
+</html>

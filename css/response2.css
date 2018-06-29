@@ -1,0 +1,780 @@
+
+@media screen and (max-width: 1450px){
+	.logo {
+	    left: 40px;
+	    top: 64px;
+	}
+	.menu {
+	    right: 40px;
+	    top: 73px;
+	}
+	.mapmain {
+	    right: auto;
+	    left: 60%;
+	    margin-left: -177px;
+	}
+	.services {
+	    height: 540px;
+	}
+}
+@media screen and (max-width: 1280px){
+	.logo {
+	    left: 40px;
+	    top: 30px;
+	}	
+	.menu {
+	    right: 40px;
+	    top: 43px;
+	}
+	.story {
+	    bottom: 30px;
+	}
+	.story h2 {
+	    margin-bottom: 22px;
+	}
+	.story-list li {
+	    padding-top: 12px;
+	}
+	.story-list li.now a {
+    	font-size: 30px;
+	    padding-bottom: 12px;
+	}
+	.map figure img {
+	    height: 460px;
+	    width: auto;
+	    position: relative;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    z-index: -1;
+	}
+	.addresd {
+	    height: 180px;
+	}
+	.add h3 {
+	    margin-left: 0;
+	    width: 100%;
+	}
+	.mapmain {
+	    width: 320px;
+	    margin-top: -139px;
+	}
+	.store-list {
+	    width: 100%;
+	}
+	.store-list li {
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: flex;
+	}
+	.store-list li b {
+	    margin-right: 23px;
+	}
+	.store-text {
+	    flex: 1;
+	    -webkit-flex: 1;
+	    -webkit-box-flex: 1;
+	    width: auto;
+	}
+}
+@media screen and (max-width: 1200px){
+	.producta {
+	    width: 90%;
+	}	
+	.proband .bicon {
+	    width: 90%;
+	}
+	.row {
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: flex;
+	}
+	.select {
+	    flex: 1;
+	    -webkit-flex: 1;
+	    -webkit-box-flex: 1;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.inner {
+	    width: 90%;
+	}	
+	.ptext {
+	    margin-left: -45%;
+	}
+	.inner {
+	    width: 90%;
+	}
+	.mapcontent {
+	    margin-left: -45%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.scroll {
+	    border-bottom: 1px solid #a0a0a0;
+	}
+	.scroll .header {
+	    padding: 18px 5%;
+	}
+	.menu {
+	    margin-top: 6px;
+	}
+	.menu {
+	    position: relative;
+	    left: 0;
+	    top: 0;
+	    float: right;
+	}
+	.menu span, .menu span:after, .menu span:before {
+	    width: 32px;
+	}
+	.menufix {
+	    display: none;
+	}
+	.header {
+	    padding: 18px 5%;
+	}
+	.logo {
+	    position: relative;
+	    left: 0;
+	    top: 0;
+	}
+	#menu_toggle {
+    	display: none;
+	}
+	#menu_toggle1 {
+	    display: block;
+	}
+	.menu span:before {
+	    top: -8px;
+	}
+	.menu span:after {
+	    bottom: -8px;
+	}
+	.menu strong {
+	    display: none;
+	}
+	.bannerdown, .blogo, .line {
+    	display: none;
+	}
+	.story {
+	    position: relative;
+	    left: 5%;
+	    padding: 45px 0;
+	    bottom: 0;
+	}
+	.story h2 {
+   		color: #2f318b;
+	    font-size: 30px;
+	}
+	.story-list li {
+	    padding-top: 10px;
+	}
+	.story-list li.now a {
+	    padding-bottom: 20px;
+	    font-size: 24px;
+	}
+	.story-list li a, .story-list li.now a {
+	    color: #646464;
+	}
+	.brand {
+	    padding-top: 0;
+	    padding-bottom: 40px;
+	}
+	.bicon {
+	    display: none;
+	}
+	.solid h1 {
+	    margin-bottom: 8px;
+	}
+	.solid {
+	    width: 100%;
+	    margin-top: 0;
+	}
+	.bannerdown, .blogo, .line {
+	    display: none;
+	}
+	.ptext {
+	    margin-top: 0;
+	    transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	}
+	.ptext h3 {
+	    font-size: 38px;
+	}
+	.ptext small {
+	    font-size: 38px;
+	}
+	.proclass {
+	    padding-top: 88px;
+	}
+	.product {
+	    padding: 88px 0 68px;
+	}
+	.product-wr {
+	    padding-bottom: 0;
+	}
+	.product-info {
+	    width: 48%;
+   	 	margin-right: 4%;
+    	margin-bottom: 33px;
+	}
+	.product-info:nth-child(2n+2) {
+	    margin-right: 0;
+	}
+	.bannerdown, .blogo, .line {
+	    display: none;
+	}
+	.mapicon {
+	    transform: scale(0.78) translateX(-50%);
+	    -webkit-transform: scale(0.78) translateX(-50%);
+	    -moz-transform: scale(0.78) translateX(-50%);
+	}
+	.mapmain {
+	    left: auto;
+	    right: 5%;
+	}
+	.conservice {
+    	padding-bottom: 0;
+	}
+	.conservice .bicon {
+	    display: none;
+	}
+	.proband .bicon {
+	    margin-bottom: 28px;
+	}
+	.proband .bicon {
+	    display: block;
+	}
+	.proband .bicon img {
+	    display: none;
+	}
+	.idea {
+	    width: 100%;
+	    padding: 0;
+	}
+	.conservice .woodbg {
+	    display: none;
+	}
+	.services {
+	    width: 100%;
+	    height: auto;
+	    margin-right: 0;
+	}
+	.stored {
+	    width: 100%;
+	}
+	.store-wr {
+	    padding: 45px 5%;
+	}
+	.row {
+	    width: 50%;
+	}
+	.pagelist {
+	    position: relative;
+	    bottom: 0;
+	}
+	.resource {
+	    left: 5%;
+	    bottom: 30px;
+	}
+	.resource small {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+	.resource h3 {
+	    font-size: 30px;
+	}
+	.teambox {
+	    padding-top: 45px;
+	    width: 90%;
+	    margin-left: 5%;
+	    float: left;
+	}
+	.teambox h3 {
+	    margin-left: 0;
+	    margin-bottom: 32px;
+	}
+	.recuite-box {
+	    padding: 45px 0 20px;
+	}
+	.recuite {
+	    width: 90%;
+	}
+	.recuite-list li {
+	    width: 48%;
+	    margin-right: 4%;
+	}
+	.need {
+	    width: 100%;
+	    left: 0;
+	    padding: 0 26px;
+	    box-sizing: border-box;
+	}
+	.recuite-list li:nth-child(2n+2) {
+	    margin-right: 0;
+	}
+	.recuite-list li {
+	    width: 48%;
+	    margin-right: 4%;
+	}
+	.pagebg {
+	    display: none;
+	}
+	.wrapper {
+	    position: static;
+	    height: auto !important;
+	}
+	.wrapper .page {
+		opacity: 1;
+	    height: auto !important;
+	}
+	.characters span {
+	    font-size: 28px;
+	    line-height: 66px;
+	}
+	.video .pagebg {
+	    display: block;
+	}
+	.enter {
+	    position: relative;
+	    width: 100%;
+	    padding: 65px 0;
+	}
+	.enter-wr {
+	    position: relative;
+	    width: 90%;
+	    left: 0;
+	    top: 0;
+	    margin: auto;
+	}
+	.title {
+	    font-size: 40px;
+	}
+	.enter-text {
+	    height: auto;
+   		overflow: visible;
+	    padding-right: 0;
+	}
+	.scroll-btn {
+	    display: none;
+	}
+	.cultre-icon {
+	    position: relative;
+	    width: 100%;
+	    display: none;
+	}
+	.culturefix {
+	    padding-bottom: 40px;
+	    position: relative;
+	    width: 100%;
+	}
+	.pagenav {
+	    display: none;
+	}
+	.cultre-icon {
+	    position: relative;
+	    width: 100%;
+	    display: none;
+	}
+	.footer {
+	    padding-top: 88px;
+	}
+	.footert {
+	    margin-bottom: 20px;
+	}
+	.culturelist {
+	    padding-bottom: 0;
+	}
+	.honor-list {
+	    width: auto !important;
+	}
+	.honor-list li {
+	    margin-bottom: 20px;
+	    width: 31%;
+	    box-sizing: border-box;
+	    margin-right: 3.5%;
+	}
+	.honor-list li:nth-child(3n+3) {
+	    margin-right: 0;
+	}
+}
+@media screen and (max-width: 861px){
+	.woodbg {
+	    width: 100%;
+	}	
+	.brandimg, .qualife .brandimg {
+	    margin-top: 0;
+	    width: 100%;
+	}
+	.brandimg figure {
+	    padding-right: 60px;
+	}
+	.brandimg img, .qualife .brandimg img {
+	    width: 100%;
+	    max-width: none;
+	}
+	.brandfix {
+	    width: 100%;
+	}
+	.branded {
+	    padding: 34px 40px 60px;
+	}
+	.modern {
+	    display: none;
+	}
+	.startfix {
+	    width: 100%;
+	    margin-top: 0;
+	}
+	.startwr {
+	    padding: 45px 32px;
+	}
+	.startimg {
+	    width: 100%;
+	}
+	.woodbg {
+	    width: 100%;
+	}
+	.product-list {
+	    width: 46%;
+	}
+	.product-list li {
+	    width: 50%;
+	    box-sizing: border-box;
+	}
+	.product-list li a {
+	    height: 110px;
+	    line-height: 110px;
+	}
+	.woodbg {
+	    width: 100%;
+	}
+	.row {
+	    width: 100%;
+	}
+}
+
+@media screen and (max-height: 850px){
+	.enter-text {
+	    height: 284px;
+        overflow: hidden;
+	}	
+}
+@media screen and (max-width: 751px){
+	.mapmain {
+	    display: none;
+	}	
+}
+@media screen and (max-width: 641px){
+	.logo {
+	    width: 200px;
+	}
+	.header-box {
+	    background: #fff;
+	    border-bottom: 1px solid #a0a0a0;
+	}
+	.mtop {
+    display: block;
+    height: 70px;
+	}
+	.brand {
+	    padding: 40px 0;
+	}
+	.woodbg {
+	    height: 380px;
+	}
+	.brandimg figure {
+	    padding-right: 0;
+	}
+	.branded {
+	    padding: 28px 30px 30px;
+	}
+	.branded strong {
+	    font-size: 30px;
+	}
+	.branded p {
+	    margin-top: 20px;
+	}
+	.address {
+	    margin-left: 0;
+	    width: 100%;
+	    padding-left: 0;
+	    border-left: none;
+	}
+	.ptext h3 {
+	    font-size: 28px;
+	    padding-bottom: 20px;
+	}
+	.ptext small {
+	    font-size: 28px;
+	    margin-top: 14px;
+	}
+	.proclass {
+	    padding: 45px 0;
+	}
+	.woodbg{
+	    height: 380px;
+	}
+	.proclass .woodbg {
+	    display: none;
+	}
+	.product-list {
+	    width: 100%;
+	}
+	.product-fix {
+	    margin-top: 35px;
+	}
+	.product {
+	    padding-top: 0;
+	}
+	.product {
+	    padding-bottom: 20px;
+	}
+	.producta {
+	    width: 100%;
+	}
+	.product-text h3 {
+	    width: 100px;
+	}
+	.map figure img {
+	    height: 340px;
+	}
+	.mapicon {
+	    transform: scale(0.5) translateX(-50%);
+	    -webkit-transform: scale(0.5) translateX(-50%);
+	    right: 24%;
+	}
+	.conservice {
+	    padding-bottom: 30px;
+	}
+	.proband {
+	    padding-top: 0;
+	}
+	.brand {
+	    padding: 40px 0;
+	}
+	.woodbg {
+	    height: 380px;
+	}
+	.ideawr h3, .storecheck h3 {
+	    font-size: 26px;
+	    margin-bottom: 14px;
+	}
+	.storecheck {
+	    margin-bottom: 20px;
+	}
+	.storecheck {
+	    margin-bottom: 45px;
+	}
+	.ideawr h3, .storecheck h3 {
+	    font-size: 26px;
+	    margin-bottom: 14px;
+	}
+	.resource small {
+	    font-size: 26px;
+	    margin-bottom: 10px;
+	}
+	.resource h3 {
+	    font-size: 26px;
+	}
+	.teambox {
+	    padding-top: 30px;
+	}
+	.teambox h3 {
+	    font-size: 26px;
+	}
+	.team .flex-direction-nav li a {
+	    height: 50px;
+	}
+	.recuite-box {
+	    padding-top: 0;
+	}
+	.recuite-list li {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.recuited {
+	    height: auto;
+	}
+	.recuited h3 {
+	    margin-bottom: 50px;
+	}
+	.need {
+	    position: relative;
+	    bottom: 0;
+	    padding: 0;
+	    box-sizing: border-box;
+	}
+	.recuite-list li {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.characters {
+	    width: 100%;
+	}
+	.characters span {
+	    font-size: 24px;
+	    line-height: 58px;
+	}
+	.pagebg span {
+	    transform: scale(0.7);
+	    -webkit-transform: scale(0.7);
+	    -moz-transform: scale(0.7);
+	}
+	.enter, .culturefix {
+	    padding: 45px 0;
+	}
+	.title {
+	    font-size: 32px;
+	}
+	.enter-text {
+	    margin-top: 30px;
+	}
+	.footer {
+	    padding-top: 40px;
+	}
+	.furniture {
+	    width: 100%;
+	    margin-bottom: 12px;
+	}
+	.furniture small {
+	    top: 10px;
+	}
+	.address {
+	    margin-left: 0;
+	    width: 100%;
+	    padding-left: 0;
+	    border-left: none;
+	}
+	.honor-list li {
+	    width: 48%;
+	    margin-right: 4%;
+	    margin-bottom: 26px;
+	}
+	.honor-list li:nth-child(3n+3) {
+	    margin-right: 4%;
+	}
+	.honor-list li:nth-child(2n+2) {
+	    margin-right: 0;
+	}
+}
+@media screen and (max-width: 481px){
+	.mtop {
+	    height: 58px;
+	}	
+	.story {
+    	padding: 30px 0 20px;
+	}
+	.story {
+	    left: 0;
+	    width: 90%;
+	    margin: auto;
+	}
+	.story-list li {
+	    margin-right: 20px;
+	}
+	.story-list li.now a {
+	    font-size: 20px;
+	}
+	.brand {
+	    padding-top: 0;
+	}
+	.brand-fix {
+	    width: 100%;
+	}
+	.branded {
+	    padding: 30px 5%;
+	}
+	.branded strong {
+	    font-size: 26px;
+	}
+	.startwr {
+	    padding: 30px 5%;
+	}
+	.startwr span {
+	    font-size: 20px;
+	    margin-bottom: 0;
+	}
+	.solid h1 {
+	    font-size: 38px;
+	    margin-bottom: 0;
+	}
+	.proclass {
+	    padding: 32px 0;
+	}
+	.product-li {
+	    margin-bottom: 20px;
+	}
+	.product-wr {
+	    padding: 20px 5% 0;
+	}
+	.product-info {
+	    margin-bottom: 20px;
+	}
+	.map figure img {
+	    height: 240px;
+	}
+	.brand {
+	    padding-top: 0;
+	}
+	.ideawr {
+	    padding: 32px 5%;
+	}
+	.select {
+	    height: 48px;
+	    line-height: 48px;
+	}
+	.check {
+	    width: 55px;
+	    height: 48px;
+	    line-height: 48px;
+	}
+	.store-list li {
+	    padding: 30px 0 5%;
+	}
+	.page-wr {
+	    padding-left: 5%;
+	}
+	.page-wr a, .page-wr span {
+	    margin-right: 26px;
+	}
+	.resource {
+	    bottom: 20px;
+	}
+	.recuite-list li {
+	    margin-bottom: 28px;
+	}
+	.recuited h3 {
+	    font-size: 20px;
+	}
+	.recuited h3 strong {
+	    font-size: 40px;
+	    right: 20px;
+	}
+	.recuite-list li {
+	    margin-bottom: 28px;
+	}
+}
+@media screen and (max-width: 380px){
+	.story h2 {
+	    margin-bottom: 14px;
+	    font-size: 26px;
+	}	
+	.story-list li {
+	    padding-top: 3px;
+	    padding-bottom: 6px;
+	    margin-right: 14px;
+	}
+	.story-list li.now a {
+	    font-size: 18px;
+	    padding-bottom: 12px;
+	}
+	.story-list li a {
+	    font-size: 16px;
+	}
+}
